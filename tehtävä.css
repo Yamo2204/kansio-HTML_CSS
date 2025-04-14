@@ -1,0 +1,170 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #737272;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.main-header {
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222; /* Updated background color */
+    padding: 15px 30px; /* Updated padding */
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.nav_links a {
+    color: #fff; /* Updated color */
+    text-decoration: none;
+    margin: 0 15px; /* Updated margin */
+    font-weight: 500; /* Added font-weight */
+}
+
+.nav_links a:hover {
+    text-decoration: underline;
+}
+
+/* Content Styling */
+.content {
+    max-width: 1200px; /* Added max-width */
+    margin: 30px auto; /* Updated margin */
+    padding: 0 20px; /* Added padding */
+}
+
+.welcome-image {
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #ddd;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem; /* Added h1 styling */
+}
+
+h2, h3 {
+    text-align: left;
+    color: #1a1a1a; /* Updated color */
+    margin-top: 10px; /* Added margin */
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Updated gap */
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* Product Card Styling */
+.product-card {
+    background-color: #ffffff; /* Updated background color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Updated box-shadow */
+    border-radius: 12px; /* Updated border-radius */
+    padding: 20px;
+    max-width: 300px; /* Added max-width */
+    flex: 1 1 300px; /* Updated flex properties */
+    text-align: left;
+    transition: transform 0.2s ease-in-out; /* Updated transition */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Added border-radius */
+}
+
+.product-card h2,
+.product-card h3,
+.product-card p {
+    color: #333;
+}
+
+/* Contact Content Styling */
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 50px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+}
+
+.contact-info {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+    color: #333;
+}
+
+.map-placeholder {
+    width: 300px;
+    height: 300px;
+    background: #e0f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid #333;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Added position relative */
+    bottom: 0; /* Added bottom */
+    width: 100%; /* Added width */
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+
